@@ -11,6 +11,6 @@
 * Zabbix;
 * Prometheus - grafana.
 
-Поставленная задача решается на двух ВМ - на одной стоят Prometheus, Grafana и Zabbix agent, на другой - Zabbix и Prometheus node exporter. Настройки Prometheus и Grafana поднимаются вагрантом, для Zabbix такое не сделал по нехватке времени, отчётность по нему скриншотом.
+Поставленная задача решается на двух ВМ - на одной стоят Prometheus, Grafana и Zabbix agent, на другой - Zabbix и Prometheus node exporter. Настройки дашборда Prometheus и Grafana поднимаются вагрантом, для дашборда Zabbix такое не сделал по нехватке времени, отчётность по нему скриншотом.
 
 Для установки графаны требуется либо наличие пакета grafana-enterprise_11.1.3_amd64.deb в подпапке packets проекта, либо доступ к его скачиванию.
